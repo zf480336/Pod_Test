@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
    #spec.resources = ['Images/\*.png', 'Sounds/\*']
 	
   spec.resource_bundles = {
-    'Pod_test' => ['Pod_Test/Assets/*.png']
+    'qqq' => ['Pod_Test/Assets/*.png']
   }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
