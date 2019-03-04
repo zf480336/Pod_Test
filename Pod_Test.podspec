@@ -108,10 +108,9 @@ Pod::Spec.new do |spec|
    #spec.resource = 'Calendar/Assets/AppIcon/Contents.json'
    #spec.resources = ['Images/\*.png', 'Sounds/\*']
 	
-  #spec.resource_bundles = {
-  #  'Pod1' => ['Calendar/Assets/*.png']
-  #}
-
+  spec.resource_bundles = {
+    'Pod_test' => ['Pod_Test/Assets/*.png']
+  }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 	
