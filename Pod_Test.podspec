@@ -105,8 +105,8 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-   spec.resource  = ["Images/*.png", "Sounds/*"]
-  # spec.resources = "Resources/*.png"
+  # spec.resource  = ["Images/*.png", "Sounds/*"]
+   spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
