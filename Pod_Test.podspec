@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Pod_Test", "Pod_Test/**/*"
-  spec.exclude_files = "Pod_Test/Exclude"
+  #spec.exclude_files = "Pod_Test/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -105,13 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 	
-   #spec.resource = 'Calendar/Assets/AppIcon/Contents.json'
-   #spec.resources = ['Images/\*.png', 'Sounds/\*']
-	
-  spec.resource_bundles = {
-    'qqq' => ['Pod_Test/Assets/*.png']
-  }
-
+ 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 	
 
