@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Pod_Test"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "giuhub库pod管理"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/zf480336/Pod_Test.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/zf480336/Pod_Test.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 spec.resource_bundles = {
-	'Pod_test' => ['Pod_Test/Assets.xcassets']
+	'Pod_test' => ['Pod_Test/*.xcassets']
 }
  
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
