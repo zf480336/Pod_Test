@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 spec.resource_bundles = {
-	'Pod_test' => ['Pod_Test/*.xcassets']
+	'Pod_test' => ['Pod_Test/**/*.{storyboard,xcassets,xib,png}']
 }
  
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
