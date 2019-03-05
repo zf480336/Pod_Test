@@ -104,7 +104,9 @@ Pod::Spec.new do |spec|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-	
+spec.resource_bundles = {
+	'Pod_test' => ['Pod_Test/Assets.xcassets']
+}
  
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 	
